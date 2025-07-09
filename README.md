@@ -1,4 +1,6 @@
-
+`index.html`
+```html
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -121,7 +123,7 @@
                 <div class="md:w-1/2 md:pl-12">
                     <h3 class="text-2xl font-bold mb-6">PT Indo Jaya Aditama</h3>
                     <p class="mb-6 text-gray-700 leading-relaxed">
-                        Didirikan pada tahun 2020, PT Indo Jaya Aditama telah tumbuh menjadi salah satu eksportir batu bara terkemuka di Indonesia. Dengan jaringan yang kuat dan komitmen terhadap kualitas, kami menyediakan solusi batu bara untuk berbagai kebutuhan industri di lebih dari 15 negara.
+                        Didirikan pada tahun 2010, PT Indo Jaya Aditama telah tumbuh menjadi salah satu eksportir batu bara terkemuka di Indonesia. Dengan jaringan yang kuat dan komitmen terhadap kualitas, kami menyediakan solusi batu bara untuk berbagai kebutuhan industri di lebih dari 15 negara.
                     </p>
                     
                     <div class="space-y-4">
@@ -338,7 +340,413 @@
                     <!-- Step 1 -->
                     <div class="flex flex-col items-center text-center">
                         <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
-                            <i class="fas fa-mountain text-3xl <!DOCTYPE html>
+                            <i class="fas fa-mountain text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Penambangan</h3>
+                        <p class="text-gray-600">Penghasilan batu bara dari tambang-tambang pilihan di Kalimantan dengan standar penambangan bertanggung jawab.</p>
+                    </div>
+                    
+                    <!-- Step 2 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
+                            <i class="fas fa-filter text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Pengolahan</h3>
+                        <p class="text-gray-600">Proses penyortiran dan pencucian untuk memenuhi berbagai spesifikasi kualitas yang dibutuhkan.</p>
+                    </div>
+                    
+                    <!-- Step 3 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
+                            <i class="fas fa-balance-scale text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Pengujian Kualitas</h3>
+                        <p class="text-gray-600">Analisis laboratorium independen untuk memastikan kepatuhan terhadap spesifikasi.</p>
+                    </div>
+                    
+                    <!-- Step 4 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
+                            <i class="fas fa-truck text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Transportasi</h3>
+                        <p class="text-gray-600">Sistem logistik yang efisien ke pelabuhan-pelabuhan utama di Indonesia.</p>
+                    </div>
+                    
+                    <!-- Step 5 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
+                            <i class="fas fa-ship text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Pengapalan</h3>
+                        <p class="text-gray-600">Pengiriman internasional dengan kapal-kapal terpercaya dan dokumentasi lengkap.</p>
+                    </div>
+                    
+                    <!-- Step 6 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
+                            <i class="fas fa-check-circle text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Penerimaan</h3>
+                        <p class="text-gray-600">Pemeriksaan kualitas akhir oleh pelanggan dan penyelesaian transaksi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4 gradient-text">Testimonial Klien</h2>
+                <div class="w-24 h-1 bg-amber-500 mx-auto"></div>
+                <p class="text-xl text-gray-300 mt-4 max-w-2xl mx-auto">Apa kata pelanggan kami tentang kerja sama dengan PT Indo Jaya Aditama</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-800 rounded-xl p-8 transform transition hover:scale-105">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5d9306cd-128c-4405-bf3f-ef89ebe0f990.png" alt="Foto kepala Cabang Procurement perusahaan baja Jepang dengan ekspresi profesional" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Yamada Hiroshi</h4>
+                            <p class="text-gray-400 text-sm">General Manager, Steel Company Japan</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"Kami telah bekerja sama dengan PT Indo Jaya Aditama selama 5 tahun terakhir. Konsistensi kualitas dan ketepatan waktu pengiriman mereka sangat mengesankan."</p>
+                    <div class="flex mt-4 text-amber-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-800 rounded-xl p-8 transform transition hover:scale-105">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/814280c3-8bb8-49f1-b2d6-da7af3c52873.png" alt="Foto Direktur perusahaan energi India dengan latar belakang industri" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Raj Patel</h4>
+                            <p class="text-gray-400 text-sm">Director, Power Plant India</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"Dari semua pemasok batu bara Indonesia, PT Indo Jaya Aditama menunjukkan profesionalisme tertinggi. Layanan pelanggan mereka sangat responsif."</p>
+                    <div class="flex mt-4 text-amber-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-800 rounded-xl p-8 transform transition hover:scale-105">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/da0c5a1a-71f9-4555-9b97-af2c66fe5c67.png" alt="Foto CEO perusahaan trading Cina dengan latar belakang perkotaan modern" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Zhang Wei</h4>
+                            <p class="text-gray-400 text-sm">CEO, Energy Trading China</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"Kami menghargai fleksibilitas PT Indo Jaya Aditama dalam memenuhi kebutuhan khusus kami. Dokumen-dokumen mereka selalu lengkap dan tepat waktu."</p>
+                    <div class="flex mt-4 text-amber-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4 gradient-text">Hubungi Kami</h2>
+                <div class="w-24 h-1 bg-amber-500 mx-auto"></div>
+                <p class="text-xl text-gray-600 mt-4 max-w-2xl mx-auto">Kami siap melayani kebutuhan batu bara internasional Anda</p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row">
+                <!-- Contact Info -->
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <div class="bg-gray-100 p-8 rounded-xl shadow-md">
+                        <h3 class="text-2xl font-bold mb-6">Informasi Kontak</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 text-amber-600 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-bold mb-1">Kantor Pusat</h4>
+                                    <p class="text-gray-600">Plaza Kuningan Lt. 12, Jl. HR Rasuna Said Kav. C-17, Jakarta Selatan 12940, Indonesia</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 text-amber-600 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-bold mb-1">Telepon</h4>
+                                    <p class="text-gray-600">+62 21 5299 3548</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 text-amber-600 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-bold mb-1">Email</h4>
+                                    <p class="text-gray-600">marketing@indojayaaditama.co.id</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 text-amber-600 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-bold mb-1">Jam Kerja</h4>
+                                    <p class="text-gray-600">Senin - Jumat: 08:00 - 17:00 WIB</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-bold mb-4">Follow Kami</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-gray-700 hover:bg-gray-900 text-white w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="bg-blue-600 hover:bg-blue-800 text-white w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="bg-blue-400 hover:bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="bg-gray-900 hover:bg-gray-700 text-white w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="md:w-1/2">
+                    <div class="bg-gray-100 p-8 rounded-xl shadow-md">
+                        <h3 class="text-2xl font-bold mb-6">Kirim Pesan</h3>
+                        <form>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label for="name" class="block text-gray-700 font-medium mb-2">Nama Anda</label>
+                                    <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                </div>
+                                <div>
+                                    <label for="company" class="block text-gray-700 font-medium mb-2">Perusahaan</label>
+                                    <input type="text" id="company" name="company" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                                    <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                </div>
+                                <div>
+                                    <label for="phone" class="block text-gray-700 font-medium mb-2">Telepon</label>
+                                    <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                </div>
+                            </div>
+                            <div class="mb-6">
+                                <label for="subject" class="block text-gray-700 font-medium mb-2">Subjek</label>
+                                <input type="text" id="subject" name="subject" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Pesan</label>
+                                <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500"></textarea>
+                            </div>
+                            <div class="mb-6">
+                                <label class="inline-flex items-center">
+                                    <input type="checkbox" class="text-amber-600 rounded border-gray-300 focus:ring-amber-500">
+                                    <span class="ml-2 text-gray-700">Saya setuju dengan Kebijakan Privasi dan Syarat Penggunaan</span>
+                                </label>
+                            </div>
+                            <div>
+                                <button type="submit" class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-full font-semibold transition w-full">Kirim Pesan</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="h-96 bg-gray-200">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.82256135111558!3d-6.208262395484212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f42283789bc9%3A0x7c1c969391f27313!2sPlaza%20Kuningan!5e0!3m2!1sen!2sid!4v1625123456789!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/09fe7fc7-0fb6-4415-9769-420e4289f5ba.png" alt="Logo PT Indo Jaya Aditama versi putih dengan tulisan lengkap" class="h-10 mb-4">
+                    <p class="text-gray-400">PT Indo Jaya Aditama adalah perusahaan perdagangan batu bara internasional yang berkomitmen pada kualitas dan keberlanjutan.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Perusahaan</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Tentang Kami</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Visi & Misi</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Manajemen</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Penghargaan</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Produk</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">High Caloric Coal</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Medium Caloric Coal</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Low Sulphur Coal</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Semua Produk</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Hubungi Kami</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-amber-500 mr-2"></i>
+                            <span class="text-gray-400">Plaza Kuningan Lt. 12, Jakarta</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt text-amber-500 mr-2"></i>
+                            <span class="text-gray-400">+62 21 5299 3548</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope text-amber-500 mr-2"></i>
+                            <span class="text-gray-400">marketing@indojayaaditama.co.id</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 PT Indo Jaya Aditama. All Rights Reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-amber-500 transition">Kebijakan Privasi</a>
+                    <a href="#" class="text-gray-400 hover:text-amber-500 transition">Syarat Penggunaan</a>
+                    <a href="#" class="text-gray-400 hover:text-amber-500 transition">Site Map</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 bg-amber-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition opacity-0 invisible hover:bg-amber-700">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Coal particles animation
+        function createCoalParticles() {
+            const container = document.getElementById('coal-particles');
+            const particleCount = 30;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'coal-particle';
+                
+                // Random size between 2px and 6px
+                const size = Math.random() * 4 + 2;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                
+                // Random position
+                particle.style.left = `${Math.random() * 100}%`;
+                particle.style.top = `${Math.random() * 100}%`;
+                
+                // Random animation
+                const duration = Math.random() * 5 + 5;
+                const delay = Math.random() * 5;
+                particle.style.animation = `float ${duration}s ease-in-out ${delay}s infinite`;
+                
+                container.appendChild(particle);
+            }
+        }
+        
+        // Counter animation
+        function animateCounters() {
+            const counters = document.querySelectorAll('.counter');
+            const speed = 200;
+            
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+                
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + (target / speed));
+                    setTimeout(animateCounters, 1);
+                } else {
+                    counter.innerText = target;
+                }
+            });
+        }
+        
+        // Back to top button
+        window.addEventListener('scroll', function() {
+            const backToTopBtn = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.remove('opacity-0', 'invisible');
+                backToTopBtn.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopBtn.classList.remove('opacity-100', 'visible');
+                backToTopBtn.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Initialize animations when page loads
+        window.addEventListener('DOMContentLoaded', function() {
+            createCoalParticles();
+            
+            // Initialize counter animation when scrolled to stats section
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateCounters();
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            const statsSection = document.querySelector('.bg-gray-900');
+            if (statsSection) {
+                observer.observe(statsSection);
+            }
+        });
+    </script>
+</body>
+</html>
+
+```
+
+`index.html`
+```html
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -461,7 +869,7 @@
                 <div class="md:w-1/2 md:pl-12">
                     <h3 class="text-2xl font-bold mb-6">PT Indo Jaya Aditama</h3>
                     <p class="mb-6 text-gray-700 leading-relaxed">
-                        Didirikan pada tahun 2020, PT Indo Jaya Aditama telah tumbuh menjadi salah satu eksportir batu bara terkemuka di Indonesia. Dengan jaringan yang kuat dan komitmen terhadap kualitas, kami menyediakan solusi batu bara untuk berbagai kebutuhan industri di lebih dari 15 negara.
+                        Didirikan pada tahun 2010, PT Indo Jaya Aditama telah tumbuh menjadi salah satu eksportir batu bara terkemuka di Indonesia. Dengan jaringan yang kuat dan komitmen terhadap kualitas, kami menyediakan solusi batu bara untuk berbagai kebutuhan industri di lebih dari 15 negara.
                     </p>
                     
                     <div class="space-y-4">
@@ -678,4 +1086,407 @@
                     <!-- Step 1 -->
                     <div class="flex flex-col items-center text-center">
                         <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
-                            <i class="fas fa-mountain text-3xl 
+                            <i class="fas fa-mountain text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Penambangan</h3>
+                        <p class="text-gray-600">Penghasilan batu bara dari tambang-tambang pilihan di Kalimantan dengan standar penambangan bertanggung jawab.</p>
+                    </div>
+                    
+                    <!-- Step 2 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
+                            <i class="fas fa-filter text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Pengolahan</h3>
+                        <p class="text-gray-600">Proses penyortiran dan pencucian untuk memenuhi berbagai spesifikasi kualitas yang dibutuhkan.</p>
+                    </div>
+                    
+                    <!-- Step 3 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
+                            <i class="fas fa-balance-scale text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Pengujian Kualitas</h3>
+                        <p class="text-gray-600">Analisis laboratorium independen untuk memastikan kepatuhan terhadap spesifikasi.</p>
+                    </div>
+                    
+                    <!-- Step 4 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
+                            <i class="fas fa-truck text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Transportasi</h3>
+                        <p class="text-gray-600">Sistem logistik yang efisien ke pelabuhan-pelabuhan utama di Indonesia.</p>
+                    </div>
+                    
+                    <!-- Step 5 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
+                            <i class="fas fa-ship text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Pengapalan</h3>
+                        <p class="text-gray-600">Pengiriman internasional dengan kapal-kapal terpercaya dan dokumentasi lengkap.</p>
+                    </div>
+                    
+                    <!-- Step 6 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white border-4 border-amber-500 rounded-full w-24 h-24 flex items-center justify-center mb-4 relative z-10">
+                            <i class="fas fa-check-circle text-3xl text-amber-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Penerimaan</h3>
+                        <p class="text-gray-600">Pemeriksaan kualitas akhir oleh pelanggan dan penyelesaian transaksi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4 gradient-text">Testimonial Klien</h2>
+                <div class="w-24 h-1 bg-amber-500 mx-auto"></div>
+                <p class="text-xl text-gray-300 mt-4 max-w-2xl mx-auto">Apa kata pelanggan kami tentang kerja sama dengan PT Indo Jaya Aditama</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-800 rounded-xl p-8 transform transition hover:scale-105">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5d9306cd-128c-4405-bf3f-ef89ebe0f990.png" alt="Foto kepala Cabang Procurement perusahaan baja Jepang dengan ekspresi profesional" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Yamada Hiroshi</h4>
+                            <p class="text-gray-400 text-sm">General Manager, Steel Company Japan</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"Kami telah bekerja sama dengan PT Indo Jaya Aditama selama 5 tahun terakhir. Konsistensi kualitas dan ketepatan waktu pengiriman mereka sangat mengesankan."</p>
+                    <div class="flex mt-4 text-amber-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-800 rounded-xl p-8 transform transition hover:scale-105">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/814280c3-8bb8-49f1-b2d6-da7af3c52873.png" alt="Foto Direktur perusahaan energi India dengan latar belakang industri" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Raj Patel</h4>
+                            <p class="text-gray-400 text-sm">Director, Power Plant India</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"Dari semua pemasok batu bara Indonesia, PT Indo Jaya Aditama menunjukkan profesionalisme tertinggi. Layanan pelanggan mereka sangat responsif."</p>
+                    <div class="flex mt-4 text-amber-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-800 rounded-xl p-8 transform transition hover:scale-105">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/da0c5a1a-71f9-4555-9b97-af2c66fe5c67.png" alt="Foto CEO perusahaan trading Cina dengan latar belakang perkotaan modern" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Zhang Wei</h4>
+                            <p class="text-gray-400 text-sm">CEO, Energy Trading China</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"Kami menghargai fleksibilitas PT Indo Jaya Aditama dalam memenuhi kebutuhan khusus kami. Dokumen-dokumen mereka selalu lengkap dan tepat waktu."</p>
+                    <div class="flex mt-4 text-amber-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4 gradient-text">Hubungi Kami</h2>
+                <div class="w-24 h-1 bg-amber-500 mx-auto"></div>
+                <p class="text-xl text-gray-600 mt-4 max-w-2xl mx-auto">Kami siap melayani kebutuhan batu bara internasional Anda</p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row">
+                <!-- Contact Info -->
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <div class="bg-gray-100 p-8 rounded-xl shadow-md">
+                        <h3 class="text-2xl font-bold mb-6">Informasi Kontak</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 text-amber-600 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-bold mb-1">Kantor Pusat</h4>
+                                    <p class="text-gray-600">Plaza Kuningan Lt. 12, Jl. HR Rasuna Said Kav. C-17, Jakarta Selatan 12940, Indonesia</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 text-amber-600 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-bold mb-1">Telepon</h4>
+                                    <p class="text-gray-600">+62 21 5299 3548</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 text-amber-600 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-bold mb-1">Email</h4>
+                                    <p class="text-gray-600">marketing@indojayaaditama.co.id</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 text-amber-600 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-bold mb-1">Jam Kerja</h4>
+                                    <p class="text-gray-600">Senin - Jumat: 08:00 - 17:00 WIB</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-bold mb-4">Follow Kami</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-gray-700 hover:bg-gray-900 text-white w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="bg-blue-600 hover:bg-blue-800 text-white w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="bg-blue-400 hover:bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="bg-gray-900 hover:bg-gray-700 text-white w-10 h-10 rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="md:w-1/2">
+                    <div class="bg-gray-100 p-8 rounded-xl shadow-md">
+                        <h3 class="text-2xl font-bold mb-6">Kirim Pesan</h3>
+                        <form>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label for="name" class="block text-gray-700 font-medium mb-2">Nama Anda</label>
+                                    <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                </div>
+                                <div>
+                                    <label for="company" class="block text-gray-700 font-medium mb-2">Perusahaan</label>
+                                    <input type="text" id="company" name="company" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                                    <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                </div>
+                                <div>
+                                    <label for="phone" class="block text-gray-700 font-medium mb-2">Telepon</label>
+                                    <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                </div>
+                            </div>
+                            <div class="mb-6">
+                                <label for="subject" class="block text-gray-700 font-medium mb-2">Subjek</label>
+                                <input type="text" id="subject" name="subject" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Pesan</label>
+                                <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500"></textarea>
+                            </div>
+                            <div class="mb-6">
+                                <label class="inline-flex items-center">
+                                    <input type="checkbox" class="text-amber-600 rounded border-gray-300 focus:ring-amber-500">
+                                    <span class="ml-2 text-gray-700">Saya setuju dengan Kebijakan Privasi dan Syarat Penggunaan</span>
+                                </label>
+                            </div>
+                            <div>
+                                <button type="submit" class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-full font-semibold transition w-full">Kirim Pesan</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="h-96 bg-gray-200">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.82256135111558!3d-6.208262395484212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f42283789bc9%3A0x7c1c969391f27313!2sPlaza%20Kuningan!5e0!3m2!1sen!2sid!4v1625123456789!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/09fe7fc7-0fb6-4415-9769-420e4289f5ba.png" alt="Logo PT Indo Jaya Aditama versi putih dengan tulisan lengkap" class="h-10 mb-4">
+                    <p class="text-gray-400">PT Indo Jaya Aditama adalah perusahaan perdagangan batu bara internasional yang berkomitmen pada kualitas dan keberlanjutan.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Perusahaan</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Tentang Kami</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Visi & Misi</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Manajemen</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Penghargaan</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Produk</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">High Caloric Coal</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Medium Caloric Coal</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Low Sulphur Coal</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-amber-500 transition">Semua Produk</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Hubungi Kami</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-amber-500 mr-2"></i>
+                            <span class="text-gray-400">Plaza Kuningan Lt. 12, Jakarta</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt text-amber-500 mr-2"></i>
+                            <span class="text-gray-400">+62 21 5299 3548</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope text-amber-500 mr-2"></i>
+                            <span class="text-gray-400">marketing@indojayaaditama.co.id</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 PT Indo Jaya Aditama. All Rights Reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-amber-500 transition">Kebijakan Privasi</a>
+                    <a href="#" class="text-gray-400 hover:text-amber-500 transition">Syarat Penggunaan</a>
+                    <a href="#" class="text-gray-400 hover:text-amber-500 transition">Site Map</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 bg-amber-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition opacity-0 invisible hover:bg-amber-700">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Coal particles animation
+        function createCoalParticles() {
+            const container = document.getElementById('coal-particles');
+            const particleCount = 30;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'coal-particle';
+                
+                // Random size between 2px and 6px
+                const size = Math.random() * 4 + 2;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                
+                // Random position
+                particle.style.left = `${Math.random() * 100}%`;
+                particle.style.top = `${Math.random() * 100}%`;
+                
+                // Random animation
+                const duration = Math.random() * 5 + 5;
+                const delay = Math.random() * 5;
+                particle.style.animation = `float ${duration}s ease-in-out ${delay}s infinite`;
+                
+                container.appendChild(particle);
+            }
+        }
+        
+        // Counter animation
+        function animateCounters() {
+            const counters = document.querySelectorAll('.counter');
+            const speed = 200;
+            
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+                
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + (target / speed));
+                    setTimeout(animateCounters, 1);
+                } else {
+                    counter.innerText = target;
+                }
+            });
+        }
+        
+        // Back to top button
+        window.addEventListener('scroll', function() {
+            const backToTopBtn = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.remove('opacity-0', 'invisible');
+                backToTopBtn.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopBtn.classList.remove('opacity-100', 'visible');
+                backToTopBtn.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        document.getElementById('backToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Initialize animations when page loads
+        window.addEventListener('DOMContentLoaded', function() {
+            createCoalParticles();
+            
+            // Initialize counter animation when scrolled to stats section
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateCounters();
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            const statsSection = document.querySelector('.bg-gray-900');
+            if (statsSection) {
+                observer.observe(statsSection);
+            }
+        });
+    </script>
+</body>
+</html>
+
+```
+
